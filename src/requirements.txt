@@ -1,0 +1,11 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azureml-core
+azureml-defaults
+numpy
+tqdm
+http://download.pytorch.org/whl/cpu/torch-1.8.0%2Bcpu-cp39-cp39-linux_x86_64.whl
+pytorch-pretrained-bert
